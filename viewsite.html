@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime List</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>* {
+        font-style: italic;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-image: url('6.webp'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+    
+    header {
+        background-color:rgba(44, 62, 80, 0.9);
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    main {
+        padding: 20px;
+    }
+    
+    .anime-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 20px;
+    }
+    
+    .anime-card {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 10px;
+        transition: transform 0.2s;
+    }
+    
+    .anime-card:hover {
+        transform: scale(1.05);
+    }
+    
+    .anime-card img {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color:rgba(44, 62, 80, 0.9);
+        color: white;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Top Airing</h1>
+    </header>
+    <main>
+        <div class="anime-grid">
+            <div class="anime-card">
+                <img src="dandhan.jpg" alt="Anime Title 1">
+                <h2>Dandadan</h2>
+                <h4>Type: TV</h4>
+                <h4>Episodes: 12</h4> 
+                <h4>Status: Currently Airing</h4>  
+                <h4>Aired: Oct 4, 2024 to ?</h4>
+            </div>
+            <div class="anime-card">
+                <img src="ROxero.jpg" alt="Anime Title 2">
+                <h2>Re:Zero</h2>
+                <h4>Type: TV</h4>
+                <h4>Episodes: 16</h4> 
+                <h4>Status: Currently Airing</h4>  
+                <h4>Aired: Oct 4, 2024 to ?</h4>
+            </div>
+            <div class="anime-card">
+                <img src="BLue.jpg" alt="Anime Title 3">
+                <h2>Blue Lock</h2>
+                <h4>Type: TV</h4>
+                <h4>Episodes: 14</h4> 
+                <h4>Status: Currently Airing</h4>  
+                <h4>Aired: Oct 4, 2024 to ?</h4>
+            </div>
+            <div class="anime-card">
+                <img src="BLeach1.jpg" alt="Anime Title 4">
+                <h2>Bleach</h2>
+                <h4>Type: TV</h4>
+                <h4>Episodes: Unknown</h4> 
+                <h4>Status: Currently Airing</h4>  
+                <h4>Aired: Oct 5, 2024 to ?</h4>
+            </div>
+            <div class="anime-card">
+                <img src="Serisri.jpg" alt="Anime Title 5">
+                <h2>Seirei Gensouki 2</h2>
+                <h4>Type: TV</h4>
+                <h4>Episodes: 12</h4> 
+                <h4>Status: Currently Airing</h4>  
+                <h4>Aired: Oct 8, 2024 to ?</h4>
+            </div>
+            <div class="anime-card">
+                <img src="uzumaki.jpg" alt="Anime Title 6">
+                <h2>Uzumaki</h2>
+                <h4>Type: TV</h4>
+                <h4>Episodes: 4</h4> 
+                <h4>Status: Currently Airing</h4>  
+                <h4>Aired: Oct 5, 2024 to oct 19, 2024</h4>
+
+            </div>
+            <div class="anime-card">
+                <img src="aono.jpg" alt="Anime Title 6">
+                <h2>Ao no Haki</h2>
+                <h4>Type: TV</h4>
+                <h4>Episodes: 24</h4> 
+                <h4>Status: Currently Airing</h4>  
+                <h4>Aired: Oct 3, 2024 to ?</h4>
+
+            </div>
+            <div class="anime-card">
+                <img src="sword.jpg" alt="Anime Title 6">
+                <h2>Sword Art</h2>
+                <h4>Type: TV</h4>
+                <h4>Episodes: 12</h4> 
+                <h4>Status: Currently Airing</h4>  
+                <h4>Aired: Oct 5, 2024 to ?</h4>
+
+            </div>
+           
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Anime List</p>
+    </footer>
+</body>
+</html>
